@@ -12,4 +12,3 @@ nmap <leader>w :w<cr>
 nmap <leader>c :! clear && gcc -Wall -Wextra -Werror % -o %:r && ./%:r<cr>
 nmap <leader>n :! clear && norminette <cr>
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
